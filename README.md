@@ -4,6 +4,8 @@ Data preparation and Workflow Management - Group-9
 
 __Long project title, e.g., research question__
 
+How do market prices respond to changes in supply and demand? What’s the typical price mark-up during the holiday periods?
+
 ## Motivation
 
 Motivate your research question or business problem. Clearly explain which problem is solved.
