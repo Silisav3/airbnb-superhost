@@ -1,8 +1,3 @@
----
-output:
-  pdf_document: default
-  html_document: default
----
 # group-9-investigating-airbnb
 Data preparation and Workflow Management - Group-9
 # Short project title
