@@ -7,6 +7,7 @@ __How do AirBnB market prices respond to changes in supply and demand? What’s 
 Peer-to-peer accommodation services such as Airbnb have become a game-changer in the rental market and the tourism accommodation sector. Literature has investigated a variety of variables that determine the rates of Airbnb listings.  
 <p> As seasonality effects have been proved to be one of the most prominent characteristics of tourism (cite), Airbnb listing rates may also depend greatly on the presence of holiday periods. Motivated by this flow of reasoning, this study aims to examine the impacts of holidays on AirBnB listing rates. 
 * Specifically, we address the following research questions: </p>
+
 + How do AirBnB market prices respond to changes in supply and demand? 
 + What’s the typical price mark-up during the holiday periods?
 + What impact did the pandemic have on AirBnB listings in top-holiday destinations?
