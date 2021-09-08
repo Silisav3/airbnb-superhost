@@ -9,8 +9,11 @@ Peer-to-peer accommodation services such as Airbnb have become a game-changer in
 * Specifically, we address the following research questions: </p>
 + How do AirBnB market prices respond to changes in supply and demand? 
 + What’s the typical price mark-up during the holiday periods?
++ What impact did the pandemic have on AirBnB listings in top-holiday destinations?
++ Did the pandemic affect the price of the aforementioned listings?
 
 Answering these questions benefits both AirBnB and its users (i.e, hosts and guests) in different ways. From the study results, Airbnb hosts can identify the right prices to set during holidays periods so that they can both benefit from the high season and maintain the competitiveness. From Airbnb guests' point of view, this study's findings support them to find reasonable accommodation prices for their trips. Lastly, Airbnb itself can use these results as a guide to regulates the marketplace and to help hosts and guests achieve their goals.
+Alongside with the aforementioned inquiries, the study's findings could indicate for instance, whether guests preferred destinations with looser regulations which was easier to travel to. Not only that, but also specify in what way larger listings have been affected by COVID-19 as travelers chose to book in smaller groups.
 
 
 ## Method and results
