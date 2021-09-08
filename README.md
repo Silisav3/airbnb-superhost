@@ -5,12 +5,12 @@ __How do AirBnB market prices respond to changes in supply and demand? What’s 
 ## Motivation
 
 Peer-to-peer accommodation services such as Airbnb have become a game-changer in the rental market and the tourism accommodation sector. Literature has investigated a variety of variables that determine the rates of Airbnb listings.  
-<p> As seasonality effects have been proved to be one of the most prominent characteristics of tourism (cite), Airbnb listing rates may also depend greatly on the presence of holiday periods. Motivated by this flow of reasoning, this study aims to examine the impacts of holidays on AirBnB listing rates. 
-* Specifically, we address the following research questions: </p>
+As seasonality effects have been proved to be one of the most prominent characteristics of tourism (cite), Airbnb listing rates may also depend greatly on the presence of holiday periods. Motivated by this flow of reasoning, this study aims to examine the impacts of holidays on AirBnB listing rates. 
+* Specifically, we address the following research questions:
 + How do AirBnB market prices respond to changes in supply and demand? 
 + What’s the typical price mark-up during the holiday periods?
 
-Answering these questions benefits both AirBnB and its users (i.e, hosts and guests) in different ways. From the study results, Airbnb hosts can identify the right prices to set during holidays periods so that they can both benefit from the high season and maintain the competitiveness. From Airbnb guests' point of view, this study's findings support them to find reasonable accommodation prices for their trips. Lastly, Airbnb itself can use these results as a guide to regulates the marketplace and to help hosts and guests achieve their goals.
+Answering these questions benefits both AirBnB and its users (i.e, hosts and guests) in different ways. From the study results, Airbnb hosts can identify the right prices to set during holiday periods so that they can both benefit from the high season and maintain the competitiveness. From Airbnb guests' point of view, this study's findings support them to find reasonable accommodation prices for their trips. Lastly, Airbnb itself can use these results as a guide to regulates the marketplace and to help hosts and guests achieve their goals.
 
 
 ## Method and results
