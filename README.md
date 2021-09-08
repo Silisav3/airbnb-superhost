@@ -1,14 +1,17 @@
-# group-9-investigating-airbnb
-Data preparation and Workflow Management - Group-9
-# Short project title
+# Pricing Your AirBnB Listing Just Right
 
-__Long project title, e.g., research question__
-
-How do market prices respond to changes in supply and demand? What’s the typical price mark-up during the holiday periods?
+__How do AirBnB market prices respond to changes in supply and demand? What’s the typical price mark-up during the holiday periods?__
 
 ## Motivation
 
-Motivate your research question or business problem. Clearly explain which problem is solved.
+Peer-to-peer accommodation services such as Airbnb have become a game-changer in the rental market and the tourism accommodation sector. Literature has investigated a variety of variables that determine the rates of Airbnb listings.  
+<p> As seasonality effects have been proved to be one of the most prominent characteristics of tourism (cite), Airbnb listing rates may also depend greatly on the presence of holiday periods. Motivated by this flow of reasoning, this study aims to examine the impacts of holidays on AirBnB listing rates. 
+* Specifically, we address the following research questions: </p>
++ How do AirBnB market prices respond to changes in supply and demand? 
++ What’s the typical price mark-up during the holiday periods?
+
+Answering these questions benefits both AirBnB and its users (i.e, hosts and guests) in different ways. From the study results, Airbnb hosts can identify the right prices to set during holidays periods so that they can both benefit from the high season and maintain the competitiveness. From Airbnb guests' point of view, this study's findings support them to find reasonable accommodation prices for their trips. Lastly, Airbnb itself can use these results as a guide to regulates the marketplace and to help hosts and guests achieve their goals.
+
 
 ## Method and results
 
@@ -30,4 +33,9 @@ Point interested users to any related literature and/or documentation.
 
 ## About
 
-Explain who has contributed to the repository. You can say it has been part of a class you've taken at Tilburg University.
+This group project is part of the course Data Preparation & Workflow Management at Tilburg University. The following authors have created and contributed to this repository:
++ Iliana Chlimintza <i.d.chlimintza@tilburguniversity.edu>
++ Tolga Depecik <t.depecik@tilburguniversity.edu>
++ Trang Bui <t.h.t.bui@tilburguniversity.com> 
++ Vasileios Syrpas <v.syrpas@tilburguniversity.edu>
+
