@@ -42,4 +42,5 @@ This group project is part of the course Data Preparation & Workflow Management 
 + Tolga Depecik <t.depecik@tilburguniversity.edu>
 + Trang Bui <t.h.t.bui@tilburguniversity.com> 
 + Vasileios Syrpas <v.syrpas@tilburguniversity.edu>
++ Janick Boekhorst <j.boekhorst@tilburguniversity.edu>
 
