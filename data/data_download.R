@@ -1,8 +1,3 @@
-
-#' download_data.R
-#'
-#' contributors: Murray Cox
-
 # --- Load Libraries --- #
 library(googledrive)
 library(readr)
@@ -15,5 +10,4 @@ drive_download(
     path = out_file,
     overwrite = TRUE)
 
-    
     
