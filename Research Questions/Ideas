@@ -15,8 +15,13 @@ Iliana   :
 
 
 
-Tolga    : 
+Tolga    : Do superhosts (experienced hosts who provide a shining example for other hosts, and extraordinary experiences for their guests) have higher ratings than ordinary hosts? 
 
+** Check variable 17 on listings data. Binary variable indicating whether the host is super or not. We can use this information as a "treatment" and see whether their ratings are higher. In addition, we can match superhosts in Amsterdam with non-super hosts in another city with similar characteristics. 
+
+** Possible research method: Regression, Sample Matching
+
+** Motivation: This question is actually important, because if super hosts do not have a relatively higher rating, then Airbnb shoud probably increase the acceptance criterias to become a superhost. If they are not rated high enough, then customers will lose their credibility for Airbnb.
 
 
 
