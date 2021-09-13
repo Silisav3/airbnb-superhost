@@ -36,9 +36,14 @@ site :
 
 
 
-Trang    :
-site:
-
+Trang:
+site: https://coursera.org/
+question: Do course titles affect students' choices?
+implications:
+--- School: How to attract more students in their courses
+--- Students: Knowing the influence of the course title on their choices, students will be able to make unbiased choice
+--- Society: By naming the course right, goverments and organizations can encourage people to learn more about important 
+topics such as sustainability, environment, food security.
 
 
 Janick   : 
