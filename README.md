@@ -1,21 +1,18 @@
-# Pricing Your AirBnB Listing Just Right
+# Accreditation as price determinant: How becoming a superhost pays off on Airbnb
 
-__How do AirBnB market prices respond to changes in supply and demand? What’s the typical price mark-up during the holiday periods?__
+__Do superhosts charge higher than their non-accredited counterparts?__
 
 ## Motivation
 
-Peer-to-peer accommodation services such as Airbnb have become a game-changer in the rental market and the tourism accommodation sector. Literature has investigated a variety of variables that determine the rates of Airbnb listings.  
-<p> As seasonality effects have been proved to be one of the most prominent characteristics of tourism (cite), Airbnb listing rates may also depend greatly on the presence of holiday periods. Motivated by this flow of reasoning, this study aims to examine the impacts of holidays on AirBnB listing rates. 
-* Specifically, we address the following research questions: </p>
+Peer-to-peer accommodation services such as Airbnb have become a game-changer in the rental market and the tourism accommodation sector. Literature has investigated a different price determinants of Airbnb listings such as: listing attributes, host attributes, rental policies, listing reputation, and listing location (see more at [More Resources](##more-resources))
 
-+ How do AirBnB market prices respond to changes in supply and demand? 
-+ What’s the typical price mark-up during the holiday periods?
-+ What impact did the pandemic have on AirBnB listings in top-holiday destinations?
-+ Did the pandemic affect the price of the aforementioned listings?
+This project addresses the following research questions: 
++ Do superhosts charge higher than non-superhosts for listings with same characteristics? 
++ Does superhosts' estimated monthly income differ from that of non-accredited hosts? 
 
-Answering these questions benefits both AirBnB and its users (i.e, hosts and guests) in different ways. From the study results, Airbnb hosts can identify the right prices to set during holidays periods so that they can both benefit from the high season and maintain the competitiveness. From Airbnb guests' point of view, this study's findings support them to find reasonable accommodation prices for their trips. Lastly, Airbnb itself can use these results as a guide to regulates the marketplace and to help hosts and guests achieve their goals.
-Alongside with the aforementioned inquiries, the study's findings could indicate for instance, whether guests preferred destinations with looser regulations which was easier to travel to. Not only that, but also specify in what way larger listings have been affected by COVID-19 as travelers chose to book in smaller groups.
-
+Answering these questions benefits both AirBnB and its users (i.e, hosts and guests) in different ways:
++ For Airbnb hosts: Becoming a superhost requires huge time and effort investments. The results from this study can help answer the question: Is it worth it to become a superhost? 
++ For Airbnb guests: This helps travelers understand the price listing bias which in turns helps them make better decision when comparing and choosing accomodations on Airbnb.  
 
 ## Method and results
 
@@ -33,7 +30,7 @@ Explain to potential users how to run/replicate your workflow. Touch upon, if ne
 
 ## More resources
 
-Point interested users to any related literature and/or documentation.
+Perez-Sanchez VR, Serrano-Estrada L, Marti P, Mora-Garcia R-T. The What, Where, and Why of Airbnb Price Determinants. Sustainability. 2018; 10(12):4596. [https://doi.org/10.3390/su10124596]
 
 ## About
 
