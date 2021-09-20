@@ -8,7 +8,7 @@ Amsterdam_columns<-Amsterdam_unclean %>% select(host_id,host_is_superhost,
                                                 reviews_per_month)
 
 
-#--- Convert data ---# 
+#--- Convert data ---#
 
 Amsterdam_columns$host_id <- as.numeric(Amsterdam_columns$host_id)
 
