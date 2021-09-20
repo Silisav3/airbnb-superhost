@@ -47,4 +47,10 @@ Amsterdam_columns$number_of_reviews <- as.numeric(Amsterdam_columns$number_of_re
 Amsterdam_columns$calculated_host_listings_count <- as.numeric(Amsterdam_columns$calculated_host_listings_count) 
 Amsterdam_columns$reviews_per_month <- as.numeric(Amsterdam_columns$reviews_per_month)
 
+Amsterdam_columns$price<-as.numeric(as.factor(Amsterdam_columns$price))
 
+Amsterdam<- Amsterdam_columns
+
+#--- Save final dataset ---#
+
+write_rds(Amsterdam,"data/Amsterdam.rds")
