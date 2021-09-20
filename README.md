@@ -1,6 +1,6 @@
-# Accreditation as price determinant: How becoming a superhost pays off on Airbnb
+# Becoming AirBnB superhost: Is it worth it? 
 
-__Do superhosts charge higher than their non-accredited counterparts?__
+__How becoming a superhost pays off on Airbnb: Whether superhosts charge higher than their non-accredited counterparts and whether they get better ratings?__
 
 ## Motivation
 
