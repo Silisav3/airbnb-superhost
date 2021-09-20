@@ -53,4 +53,4 @@ Amsterdam<- Amsterdam_columns
 
 #--- Save final dataset ---#
 
-write_rds(Amsterdam,"data/Amsterdam.rds")
+write_rds(Amsterdam,"Amsterdam.rds")
