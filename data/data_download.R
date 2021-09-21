@@ -11,6 +11,3 @@ drive_download(
     path = out_file,
     overwrite = TRUE)
 
-Amsterdam_unclean <- read.csv("Amsterdam.csv")
-
-
