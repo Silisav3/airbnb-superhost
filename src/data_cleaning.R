@@ -59,6 +59,6 @@ df$price <- as.numeric(as.factor(df$price))
 
 amsterdam <- df
 
-#--- Save final dataset ---#
+#--- Save final dataset ---# 
 
 write_rds(amsterdam, "gen/data-prep/amsterdam.rds")
