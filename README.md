@@ -1,6 +1,6 @@
 # Becoming AirBnB superhost: Is it worth it? 
 
-__How becoming a superhost pays off on Airbnb: Whether superhosts charge higher than their non-accredited counterparts and whether they get better ratings?__
+__How becoming a superhost pays off on Airbnb: Do superhosts charge higher than their non-accredited counterparts?__
 
 ## Motivation
 
@@ -12,13 +12,19 @@ This project addresses the following research questions:
 
 Answering these questions benefits Airbnb users (i.e, hosts and guests) in different ways:
 + For Airbnb hosts: Becoming a superhost requires huge time and effort investments. The results from this study can help answer the question: Is it worth it to become a superhost? 
-+ For Airbnb guests: This helps travelers understand the price listing bias which in turns helps them make better decision when comparing and choosing accomodations on Airbnb.  
++ For Airbnb guests: This helps travelers u nderstand the price listing bias which in turns helps them make better decision when comparing and choosing accomodations on Airbnb.  
 
 ## Method and results
 
-First, introduce and motivate your chosen method, and explain how it contributes to solving the research question/business problem.
+We use OLS estimation to analyze the effect of being a superhost compared to non-accredited hosts on the listing's price. In the regression model, we include some control variables such as property type, number of reviews, total number of listings of the host house size and etc.
 
-Second, summarize your results concisely. Make use of subheaders where appropriate.
+However, omitted variables are one of the major problems in nonexperimental studies because if we do not take them into account, they will create a biased estimate of the effect. For instance, it might be possible that a listing on the day of a national holiday have a higher price than the other dates and the total number of listings of a host might be higher in a national than in an ordinary period. In this case, the omitted variable both affects the dependent variable "price" and the independent variable "total listings". In such a case, the effect pf total listings would be over-estimated, because our model could not capture the effect of holidays. 
+
+To overcome this endogeneity problem, we use propensity score matching method. To be more specific, we match the treated (superhosts) and untreated (non-accredited hosts) groups based on the covariates included in the model ike a real lab experiment, both conditions are approximately the same except the difference in the type of host (superhost vs non-accredited)
+
+*First, introduce and motivate your chosen method, and explain how it contributes to solving the research question/business problem.
+
+Second, summarize your results concisely. Make use of subheaders where appropriate.*
 
 ## Repository overview
 
