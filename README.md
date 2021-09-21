@@ -1,6 +1,6 @@
-# Becoming AirBnB superhost: Is it worth it? 
+# Accreditation as price determinant: How becoming a superhost pays off on Airbnb
 
-__How becoming a superhost pays off on Airbnb: Whether superhosts charge higher than their non-accredited counterparts and whether they get better ratings?__
+__Do superhosts charge higher than their non-accredited counterparts?__
 
 ## Motivation
 
@@ -12,7 +12,7 @@ This project addresses the following research questions:
 
 Answering these questions benefits Airbnb users (i.e, hosts and guests) in different ways:
 + For Airbnb hosts: Becoming a superhost requires huge time and effort investments. The results from this study can help answer the question: Is it worth it to become a superhost? 
-+ For Airbnb guests: This helps travelers understand the price listing bias which in turns helps them make better decision when comparing and choosing accomodations on Airbnb.  
++ For Airbnb guests: This helps travelers u nderstand the price listing bias which in turns helps them make better decision when comparing and choosing accomodations on Airbnb.  
 
 ## Method and results
 
@@ -22,9 +22,9 @@ However, omitted variables are one of the major problems in nonexperimental stud
 
 To overcome this endogeneity problem, we use propensity score matching method. To be more specific, we match the treated (superhosts) and untreated (non-accredited hosts) groups based on the covariates included in the modelL ike a real lab experiment, both conditions are approximately the same except the difference in the type of host (superhost vs non-accredited)
 
-First, introduce and motivate your chosen method, and explain how it contributes to solving the research question/business problem.
+*First, introduce and motivate your chosen method, and explain how it contributes to solving the research question/business problem.
 
-Second, summarize your results concisely. Make use of subheaders where appropriate.
+Second, summarize your results concisely. Make use of subheaders where appropriate.*
 
 ## Repository overview
 
