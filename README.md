@@ -20,7 +20,7 @@ We use OLS estimation to analyze the effect of being a superhost compared to non
 
 However, omitted variables are one of the major problems in nonexperimental studies because if we do not take them into account, they will create a biased estimate of the effect. For instance, it might be possible that a listing on the day of a national holiday have a higher price than the other dates and the total number of listings of a host might be higher in a national than in an ordinary period. In this case, the omitted variable both affects the dependent variable "price" and the independent variable "total listings". In such a case, the effect pf total listings would be over-estimated, because our model could not capture the effect of holidays. 
 
-To overcome this endogeneity problem, we use propensity score matching method. To be more specific, we match the treated (superhosts) and untreated (non-accredited hosts) groups based on the covariates included in the modelL ike a real lab experiment, both conditions are approximately the same except the difference in the type of host (superhost vs non-accredited)
+To overcome this endogeneity problem, we use propensity score matching method. To be more specific, we match the treated (superhosts) and untreated (non-accredited hosts) groups based on the covariates included in the model ike a real lab experiment, both conditions are approximately the same except the difference in the type of host (superhost vs non-accredited)
 
 *First, introduce and motivate your chosen method, and explain how it contributes to solving the research question/business problem.
 
