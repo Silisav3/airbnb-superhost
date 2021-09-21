@@ -8,7 +8,7 @@ Amsterdam_columns<-Amsterdam_unclean %>% select(host_id,host_is_superhost,
                                                 reviews_per_month)
 
 
-#--- Convert data ---# 
+#--- Convert data ---#
 
 Amsterdam_columns$host_id <- as.numeric(Amsterdam_columns$host_id)
 
@@ -29,7 +29,7 @@ Amsterdam_columns$bedrooms <- as.numeric(Amsterdam_columns$bedrooms)
 Private_room <- ifelse(Amsterdam_columns$room_type=="Private room",1,0)
 Entire_home_apt <- ifelse(Amsterdam_columns$room_type=="Entire home/apt",1,0)
 Shared_room<-ifelse(Amsterdam_columns$room_type=="Shared room",1,0)
-Hotel_room<-ifelse(Amsterdam_columns$room_type=="Hotel_room",1,0)
+Hotel_room<-ifelse(Amsterdam_columns$room_type=="Hotel room",1,0)
 Amsterdam_columns<-cbind(Amsterdam_columns,Private_room,Entire_home_apt,Shared_room,Hotel_room)
 
 
@@ -53,4 +53,4 @@ Amsterdam<- Amsterdam_columns
 
 #--- Save final dataset ---#
 
-write_rds(Amsterdam,"data/Amsterdam.rds")
+write_rds(Amsterdam,"Amsterdam.rds")
