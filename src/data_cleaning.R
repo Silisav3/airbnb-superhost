@@ -44,7 +44,7 @@ df$accommodates <- as.numeric(df$accommodates)
 df$beds <- as.numeric(df$beds)
 df$bedrooms <- as.numeric(df$bedrooms)
 
-
+df$property_type <- ifelse(df$property_type == "Entire rental unit", 1, 0)
 df$private_room <- ifelse(df$room_type == "Private room", 1, 0)
 df$entire_home_apt <- ifelse(df$room_type == "Entire home/apt", 1, 0)
 df$shared_room <- ifelse(df$room_type == "Shared room", 1, 0)
