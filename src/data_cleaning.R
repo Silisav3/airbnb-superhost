@@ -56,7 +56,7 @@ df$size_house <-
 df = subset(df, select = -c(accommodates, beds, bedrooms))
 
 df$price <- as.numeric(as.factor(df$price))
-
+df <-na.omit(df)
 amsterdam <- df
 
 #--- Save final dataset ---#
