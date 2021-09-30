@@ -1,53 +1,79 @@
+#Loading libraries
+
+```{r}
 library(data.table)
 library(ggplot2)
+```
 
-ams <- setDT(readRDS("gen/data-prep/amsterdam.rds"))
-str(ams)
+#Loading data and summary
 
-head(ams)
-nrow(ams)
-table(ams$host_is_superhost)
+```{r}
+df <- setDT(df)
+summary(df)
 
-#should delete the room_type variable and one of the separate types
-ams[, c("room_type",
-        "private_room",
-        "entire_home_apt",
-        "shared_room",
-        "hotel_room")]
+```
 
-#something wrong when transforming Hotel_room variable (because in the new data,
-#Hotel_room is all 0 while in the old data, there are 110 Hotel_room)
+#
 
-ams[, .(
+```{r}
+#number of super host/ non-super host
+table(df$superhost)
+```
+```{r}
+#room type by superhost
+df[, .(
     priv_room = sum(private_room),
     apt = sum(entire_home_apt),
     shared = sum(shared_room),
     hotel = sum(hotel_room)
-),
-by = host_is_superhost]
-
-#   host_is_superhost priv_room   apt shared hotel
-#1:              TRUE       926  1064      1     0
-#2:             FALSE      2569 11765     43     0
-
-table(ams$host_is_superhost, ams$room_type)
-#       entire home/apt hotel room private room shared room
-#FALSE           11765         64         2569          43
-#TRUE             1064         46          926           1
-
-table(ams$hotel_room == 1)
-#FALSE
-#16368
-
-#average price by room_type (superhost vs. non-superhost)
+),by = superhost]
+```
+```{r}
+#average price set by superhost vs. non-superhost
 superhost_price <-
-    ams[, .(avg_price = mean(price)), by = .(host_is_superhost, room_type)]
+    df[, .(avg_price = mean(price)), by = superhost]
 colnames(superhost_price) <-
-    c("superhost", "room_type", "avg_price")
+    c("superhost", "avg_price")
 
+superhost_price
+```
+
+```{r}
+g <- ggplot(df, aes(superhost, price))
+g + geom_boxplot(outlier.colour="black", outlier.shape=16,
+             outlier.size=2, notch=FALSE)
+
+```
+
+```{r}
+#average price by room_type (superhost vs. non-superhost)
+price_by_roomtype <-
+    df[, .(avg_price = mean(price)), by = .(superhost, room_type)]
+colnames(price_by_roomtype) <-
+    c("superhost", "room_type", "avg_price")
 g <-
-    ggplot(superhost_price, aes(room_type, avg_price, fill = superhost))
+    ggplot(price_by_roomtype, aes(room_type, avg_price, fill = superhost))
 g + geom_bar(stat = "identity",
              width = .5,
              position = 'dodge')
-#avr price for non-superhost is higher in most case.
+```
+
+Unexpectedly, avg. prices set by non-superhost are higher for most room types, except for *Entire home*.
+
+```{r}
+#average price by location (superhost vs. non-superhost)
+price_by_location <-
+    df[, .(avg_price = mean(price)), by = .(superhost, in_center)]
+
+colnames(price_by_location) <-
+    c("superhost", "room_in_center", "avg_price")
+
+g <-
+    ggplot(price_by_location, aes(room_in_center, avg_price, fill = superhost))
+g + geom_bar(stat = "identity",
+             width = .5,
+             position = 'dodge')
+```
+However, by room location, we see that superhosts set higher price in both cases.
+
+
