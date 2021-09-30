@@ -1,8 +1,8 @@
 # --- Select columns --- #
 rm(list = ls())
-
+library(data.table)
 library(dplyr)
-df_unclean <- read.csv("Amsterdam.csv")
+df_unclean <- read.csv("data/Amsterdam.csv")
 
 df <- df_unclean %>% select(
     host_id,
@@ -57,8 +57,10 @@ df = subset(df, select = -c(accommodates, beds, bedrooms))
 
 df$price <- as.numeric(as.factor(df$price))
 df <-na.omit(df)
-amsterdam <- df
+setnames(df, old = c("host_is_superhost","neighbourhood_cleansed", "calculated_host_listings_count"), 
+            new = c("superhost", "in_center", "listings"))
+
 
 #--- Save final dataset ---#
 
-write_rds(amsterdam, "gen/data-prep/amsterdam.rds")
+write.csv(df, "gen/data-prep/amsterdam.csv")
