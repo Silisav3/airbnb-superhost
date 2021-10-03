@@ -2,7 +2,7 @@
 rm(list = ls())
 library(data.table)
 library(dplyr)
-df_unclean <- read.csv("data/Amsterdam.csv")
+df_unclean <- read.csv("Amsterdam.csv")
 
 df <- df_unclean %>% select(
     host_id,
@@ -61,6 +61,7 @@ df <-na.omit(df)
 setnames(df, old = c("host_is_superhost","neighbourhood_cleansed", "calculated_host_listings_count"), 
             new = c("superhost", "in_center", "listings"))
 
+df$superhost[df$superhost =="TRUE"] <- 1
 
 #--- Save final dataset ---#
 
