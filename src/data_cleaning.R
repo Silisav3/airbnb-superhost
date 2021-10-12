@@ -70,4 +70,4 @@ df$superhost[df$superhost =="TRUE"] <- 1
 
 #--- Save final dataset ---#
 
-fwrite(df, "gen/data-prep/amsterdam.csv")
+write.csv(df, "gen/data-prep/amsterdam.csv")
