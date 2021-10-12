@@ -1,29 +1,19 @@
----
-output: html_document
----
+# --- Install & load packages --- #
 
-#Loading libraries
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(MatchIt, optmatch, dplyr, gapminder, fixest, forcats, purrr, rlist, RItools, Hmisc, modelsummary, data.table, ggplot2)
+search()
 
-```{r}
-library(data.table)
-library(ggplot2)
-```
+# --- Load data and summary --- #
 
-#Loading data and summary
-
-```{r}
 df <- fread("../gen/data-prep/amsterdam.csv")
 summary(df)
 
-```
+# --- Some statistics comparing super vs. non-super host --- #
 
-#
-
-```{r}
 #number of super host/ non-super host
 table(df$superhost)
-```
-```{r}
+
 #room type by superhost
 df[, .(
     priv_room = sum(private_room),
@@ -31,25 +21,20 @@ df[, .(
     shared = sum(shared_room),
     hotel = sum(hotel_room)
 ),by = superhost]
-```
-```{r}
+
+
+# --- Graphs comparing price set by super vs. non-super hosts --- #
+
 #average price set by superhost vs. non-superhost
 superhost_price <-
     df[, .(avg_price = mean(price)), by = superhost]
 colnames(superhost_price) <-
     c("superhost", "avg_price")
 
-superhost_price
-```
-
-```{r}
 g <- ggplot(df, aes(superhost, price))
 g + geom_boxplot(outlier.colour="black", outlier.shape=16,
              outlier.size=2, notch=FALSE)
 
-```
-
-```{r}
 #average price by room_type (superhost vs. non-superhost)
 price_by_roomtype <-
     df[, .(avg_price = mean(price)), by = .(superhost, room_type)]
@@ -60,11 +45,7 @@ g <-
 g + geom_bar(stat = "identity",
              width = .5,
              position = 'dodge')
-```
 
-Unexpectedly, avg. prices set by non-superhost are higher for most room types, except for *Entire home*.
-
-```{r}
 #average price by location (superhost vs. non-superhost)
 price_by_location <-
     df[, .(avg_price = mean(price)), by = .(superhost, in_center)]
@@ -77,7 +58,3 @@ g <-
 g + geom_bar(stat = "identity",
              width = .5,
              position = 'dodge')
-```
-However, by room location, we see that superhosts set higher price in both cases.
-
-

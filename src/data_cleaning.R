@@ -1,7 +1,12 @@
-# --- Select columns --- #
+# --- Install & load packages --- #
+
 rm(list = ls())
-library(data.table)
-library(dplyr)
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(MatchIt, optmatch, dplyr, gapminder, fixest, forcats, purrr, rlist, RItools, Hmisc, modelsummary, data.table, ggplot2)
+search()
+
+# --- Select columns --- #
+
 df_unclean <- read.csv("Amsterdam.csv")
 
 df <- df_unclean %>% select(
