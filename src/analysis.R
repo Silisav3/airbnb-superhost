@@ -1,16 +1,9 @@
-# --- Load Libraries --- #
+# --- Install & Load Packages --- #
 
-library(MatchIt)
-library(optmatch)
-library(dplyr)
-library(gapminder)
-library(fixest)
-library(forcats)
-library(purrr)
-library(rlist)
-library(RItools)
-library(Hmisc)
-library(modelsummary)
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(MatchIt, optmatch, dplyr, gapminder, fixest, forcats, purrr, rlist, RItools, Hmisc, modelsummary, data.table, ggplot2)
+
+search()
 
 # --- Load Data --- #
 
@@ -41,7 +34,11 @@ amsterdam_matched <- match.data(optimalmatching)
 
 # Chi Square test to see whether our treated and untreated group is balanced in the matched sample "amsterdam_matched"
 
+<<<<<<< HEAD
 chisq <- xBalance(amsterdam_matched$superhost ~ amsterdam_matched$in_center + amsterdam_matched$price + amsterdam_matched$minimum_nights + amsterdam_matched$price*amsterdam_matched$number_of_reviews + amsterdam_matched$number_of_reviews + amsterdam_matched$listings + amsterdam_matched$reviews_per_month + amsterdam_matched$reviews_per_month*amsterdam_matched$price + amsterdam_matched$private_room + amsterdam_matched$entire_home_apt + amsterdam_matched$entire_home_apt*amsterdam_matched$price + amsterdam_matched$shared_room + amsterdam_matched$size_house, data = amsterdam_matched, report = c("chisquare.test"))
+=======
+xBalance(amsterdam_matched$superhost ~ amsterdam_matched$in_center + amsterdam_matched$price + amsterdam_matched$minimum_nights + amsterdam_matched$price*amsterdam_matched$number_of_reviews + amsterdam_matched$number_of_reviews + amsterdam_matched$listings + amsterdam_matched$reviews_per_month + amsterdam_matched$reviews_per_month*amsterdam_matched$price + amsterdam_matched$private_room + amsterdam_matched$entire_home_apt + amsterdam_matched$entire_home_apt*amsterdam_matched$price + amsterdam_matched$shared_room + amsterdam_matched$size_house, data = amsterdam_matched, report = c("chisquare.test"))
+>>>>>>> 7d8c3c50cfacee3d7adb496d281efe92a319065a
 
 # New propensity score model and prediction based on the matched sample
 
