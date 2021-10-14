@@ -4,7 +4,7 @@ __How becoming a superhost pays off on Airbnb: Do superhosts charge higher than 
 
 ## Motivation
 
-Peer-to-peer accommodation services such as Airbnb have become a game-changer in the rental market and the tourism accommodation sector. Literature has investigated a different price determinants of Airbnb listings such as: listing attributes, host attributes, rental policies, listing reputation, and listing location (see more at [More Resources](##more-resources))
+Peer-to-peer accommodation services such as Airbnb have become a game-changer in the rental market and the tourism accommodation sector. Literature has investigated a different price determinants of Airbnb listings such as: listing attributes, host attributes, rental policies, listing reputation, and listing location (see more at [More Resources](#more-resources))
 
 This project addresses the following research questions: 
 + Do superhosts charge higher than non-superhosts for listings with same characteristics? 
