@@ -2,6 +2,6 @@
 .Rhistory
 .RData
 .Ruserdata
-.gitgnore
+.gitignore
 **csv
 **rds
