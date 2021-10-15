@@ -13,3 +13,10 @@ drive_download(
     as_id(data_id), 
     path = out_file,
     overwrite = TRUE)
+
+
+# Create folders 
+dir.create('./data')
+dir.create('./gen/input')
+dir.create('./gen/temp')
+
