@@ -31,3 +31,4 @@ summary(Matched_OLS)
 #Comparing two models
 models <- list(Simple_OLS, Matched_OLS)
 msummary(models, output = 'gen/output/airbnb_results.html')
+
