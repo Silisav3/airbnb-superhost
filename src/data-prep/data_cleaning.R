@@ -1,8 +1,13 @@
-# --- Select columns --- #
 rm(list = ls())
-library(data.table)
-library(dplyr)
-df_unclean <- read.csv("Amsterdam.csv")
+# --- Install & Load Packages --- #
+
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(MatchIt, optmatch, dplyr, gapminder, fixest, forcats, purrr, rlist, RItools, Hmisc, modelsummary, data.table, ggplot2)
+
+search()
+
+# --- Select columns --- #
+df_unclean <- read.csv("data/Amsterdam.csv")
 
 df <- df_unclean %>% select(
     host_id,
@@ -65,4 +70,6 @@ df$superhost[df$superhost =="TRUE"] <- 1
 
 #--- Save final dataset ---#
 
-fwrite(df, "gen/data-prep/amsterdam.csv")
+write.csv(df, "gen/temp/df_cleaned.csv",row.names = FALSE)
+
+
