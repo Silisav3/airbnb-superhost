@@ -22,10 +22,6 @@ However, omitted variables are one of the major problems in nonexperimental stud
 
 To overcome this endogeneity problem, we use propensity score matching method. To be more specific, we match the treated (superhosts) and untreated (non-accredited hosts) groups based on the covariates included in the model ike a real lab experiment, both conditions are approximately the same except the difference in the type of host (superhost vs non-accredited)
 
-*First, introduce and motivate your chosen method, and explain how it contributes to solving the research question/business problem.
-
-Second, summarize your results concisely. Make use of subheaders where appropriate.*
-
 ## Repository overview
 
 Our repository has the following structure:
@@ -43,9 +39,9 @@ Our repository has the following structure:
 ```
 ## Running instructions
 
-For this project, we made use of GNU make. In order to run the whole project type in your terminal the command make.If you are would like to learn more about GNU make, we advice you to visit the following [site](https://tilburgsciencehub.com/building-blocks/automate-and-execute-your-work/automate-your-workflow/what-are-makefiles/).
+For this project, we made use of GNU make. In order to run the whole project type in your terminal the command make.If you would like to learn more about GNU make, we advice you to visit the following [site](https://tilburgsciencehub.com/building-blocks/automate-and-execute-your-work/automate-your-workflow/what-are-makefiles/).
 
-Before running the makefile, make sure you have the following packages installed :
+Before running the makefile, please make sure you have the following packages installed :
 ```
         install.packages("pacman")
         install.packages("googledrive")
