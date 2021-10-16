@@ -28,12 +28,42 @@ Second, summarize your results concisely. Make use of subheaders where appropria
 
 ## Repository overview
 
-Provide an overview of the directory structure and files.
-
+Our repository has the following structure:
+```
+   |───gen
+   |   ├───input
+   |   ├───output
+   |   |
+   |   └──temp
+   ├───paper
+   |  
+   └───src
+        ├───analysis
+        └───data-prep
+```
 ## Running instructions
 
-Explain to potential users how to run/replicate your workflow. Touch upon, if necessary, the required input data, which (secret) credentials are required (and how to obtain them), which software tools are needed to run the workflow (including links to the installation instructions), and how to run the workflow. Make use of subheaders where appropriate.
+For this project, we made use of GNU make. In order to run the whole project type in your terminal the command make.If you are would like to learn more about GNU make, we advice you to visit the following [site](https://tilburgsciencehub.com/building-blocks/automate-and-execute-your-work/automate-your-workflow/what-are-makefiles/).
 
+Before running the makefile, make sure you have the following packages installed :
+```
+        install.packages("pacman")
+        install.packages("googledrive")
+        install.packages("readr")
+        install.packages("MatchIt")
+        install.packages("optmatch")
+        install.packages("gapminder")
+        install.packages("dplyr")
+        install.packages(fixest)
+        install.packages("forcats")
+        install.packages("purrr")
+        install.packages("rlist")
+        install.packages("RItools")
+        install.packages("Hmisc")
+        install.packages("modelsummary")
+        install.packages("data.table")
+        install.packages("ggplot2")
+```
 ## More resources
 
 Perez-Sanchez VR, Serrano-Estrada L, Marti P, Mora-Garcia R-T. The What, Where, and Why of Airbnb Price Determinants. Sustainability. 2018; 10(12):4596. [https://doi.org/10.3390/su10124596]
