@@ -49,6 +49,8 @@ matched pairs.
 
 See the distribution of propensity scores before and after the matching:
 
+![unbalanced data ](https://user-images.githubusercontent.com/82318595/137624762-508b9612-4e4d-476e-8109-aa01d9886343.PNG")
+
 
 ## Results
 
