@@ -10,17 +10,17 @@ results: gen/output/airbnb_results.html
 data/Amsterdam.csv: src/data-prep/data_download.R
 	R --vanilla < src/data-prep/data_download.R
 	
-gen/temp/df_cleaned.csv: src/data-prep/data_cleaning.R
+gen/temp/df_cleaned.csv: src/data-prep/data_cleaning.R data/Amsterdam.csv
 		R --vanilla < src/data-prep/data_cleaning.R
 
-gen/output/plot1_avg_price_superhost_vs_non.pdf gen/output/plot2_avg_price_room_type.pdf gen/output/plot3_avg_price_location.pdf: src/analysis/data_summary.R
+gen/output/plot1_avg_price_superhost_vs_non.pdf gen/output/plot2_avg_price_room_type.pdf gen/output/plot3_avg_price_location.pdf: src/analysis/data_summary.R gen/temp/df_cleaned.csv
 	R --vanilla < src/analysis/data_summary.R
 
-gen/output/visualizing_unbalanced_data.pdf: src/analysis/visualizing_unbalanced_data.R
+gen/output/visualizing_unbalanced_data.pdf: src/analysis/visualizing_unbalanced_data.R gen/temp/df_cleaned.csv
 	R --vanilla < src/analysis/visualizing_unbalanced_data.R
 	
-gen/output/visualizing_balanced_data.pdf: src/analysis/visualizing_balanced_data.R
+gen/output/visualizing_balanced_data.pdf: src/analysis/visualizing_balanced_data.R gen/temp/df_cleaned.csv
 	R --vanilla < src/analysis/visualizing_balanced_data.R
 	
-gen/output/airbnb_results.html: src/analysis/model_comparison.R
+gen/output/airbnb_results.html: src/analysis/model_comparison.R gen/temp/amsterdam_matched.csv gen/temp/df_cleaned.csv
 	R --vanilla < src/analysis/model_comparison.R
