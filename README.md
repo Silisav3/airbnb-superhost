@@ -2,7 +2,7 @@
 
 __How becoming a superhost pays off on Airbnb: Do superhosts charge higher than their non-accredited counterparts?__
 
-![Becoming a superhost is a huge investment in time and effort](https://raw.githubusercontent.com/thtbui/group-9-investigating-airbnb/main/data/how%20to%20become%20a%20superhost.png){width=70%}
+![Becoming a superhost is a huge investment in time and effort](https://raw.githubusercontent.com/thtbui/group-9-investigating-airbnb/main/data/how%20to%20become%20a%20superhost.png)
 
 ## Motivation
 
@@ -29,11 +29,11 @@ The data consists of 13,421 observations of which each represents an AirBnB list
 
 2. Examinizing prices for each room type, we see the same pattern: Except for Entire homes where prices of superhosts are a bit higher, non-superhosts establish higher prices for all other property types.
 
-![avr. price by room type - superhost vs. non-superhost ](https://raw.githubusercontent.com/thtbui/group-9-investigating-airbnb/main/data/avg_price_by_roomtype_superhost_vs_nonsuperhost.png){width=80%}
+![avr. price by room type - superhost vs. non-superhost ](https://raw.githubusercontent.com/thtbui/group-9-investigating-airbnb/main/data/avg_price_by_roomtype_superhost_vs_nonsuperhost.png)
 
 3. Lastly, considering property location, superhosts seem to set higher price for both in center and not-center rooms
 
-![avr. price by room location - superhost vs. non-superhost ](https://raw.githubusercontent.com/thtbui/group-9-investigating-airbnb/main/data/avg_price_by_loc_superhost_vs_nonsuperhost.png){width=80%}
+![avr. price by room location - superhost vs. non-superhost ](https://raw.githubusercontent.com/thtbui/group-9-investigating-airbnb/main/data/avg_price_by_loc_superhost_vs_nonsuperhost.png)
 
 ## Method and results
 
