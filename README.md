@@ -23,7 +23,7 @@ The data consists of 13,421 observations of which each represents an AirBnB list
 + There are 1835 superhosts (13.7%) and 11586 (86.3%) non-superhost-owned listings
 + We can observe some differences in price set by superhost vs. non-superhost in general:
 
-1. Of all listings in the dataset, prices set by superhosts are lower than non-superhosts:
+1. Of all listings in the dataset, average prices set by superhosts are higher than that of non-superhosts:
 
 ![avr. price by superhost vs. non-superhost ](https://raw.githubusercontent.com/thtbui/group-9-investigating-airbnb/main/data/avg_price_superhost_nonsuperhost.png)
 
