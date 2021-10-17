@@ -49,7 +49,7 @@ matched pairs.
 
 See the distribution of propensity scores before and after the matching:
 
-![unbalanced data ](hhttps://github.com/tolga1902/tolga/blob/main/unbalanced.PNG")
+![unbalanced data ](https://github.com/tolga1902/tolga/blob/main/unbalanced.PNG?raw=true)
 
 
 ## Results
