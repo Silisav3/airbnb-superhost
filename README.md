@@ -63,7 +63,10 @@ prices than ordinary hosts, however analysis revealed that the direction of the 
 opposite. This might be because, superhosts feel themselves under pressure and set their prices lower
 so that they have higher reviews and continue as a superhost.
 
-+ Interestingly, houses in the center have a lower price than houses located outside the center
++ Interestingly, houses in the center have a lower price than houses located outside the center.
+
+![results](https://raw.githubusercontent.com/tolga1902/tolga/main/result_1.PNG)
+![results_cont](https://raw.githubusercontent.com/tolga1902/tolga/main/result_2.PNG)
 
 
 ## Repository overview
