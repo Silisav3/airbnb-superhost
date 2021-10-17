@@ -10,9 +10,8 @@ Peer-to-peer accommodation services such as Airbnb have become a game-changer in
 
 This project addresses the following research questions: 
 + Do superhosts charge higher than non-superhosts for listings with same characteristics? 
-+ Does superhosts' estimated monthly income differ from that of non-accredited hosts? 
 
-Answering these questions benefits Airbnb users (i.e, hosts and guests) in different ways:
+Answering this question benefits Airbnb users (i.e, hosts and guests) in different ways:
 + For Airbnb hosts: Becoming a superhost requires huge time and effort investments. The results from this study can help answer the question: Is it worth it to become a superhost? 
 + For Airbnb guests: This helps travelers u nderstand the price listing bias which in turns helps them make better decision when comparing and choosing accomodations on Airbnb.  
 
@@ -50,9 +49,9 @@ Our repository has the following structure:
    |───gen
    |   ├───input
    |   ├───output
-   |   |
-   |   └──temp
-   ├───paper
+   |   |──temp
+   |
+   |───paper
    |  
    └───src
         ├───analysis
