@@ -25,7 +25,7 @@ The data consists of 13,421 observations of which each represents an AirBnB list
 
 1. Of all listings in the dataset, prices set by superhosts are lower than non-superhosts:
 
-![avr. price by superhost vs. non-superhost ](https://raw.githubusercontent.com/thtbui/group-9-investigating-airbnb/main/data/avg_price_superhost_nonsuperhost.png){width=80%}
+![avr. price by superhost vs. non-superhost ](https://raw.githubusercontent.com/thtbui/group-9-investigating-airbnb/main/data/avg_price_superhost_nonsuperhost.png)
 
 2. Examinizing prices for each room type, we see the same pattern: Except for Entire homes where prices of superhosts are a bit higher, non-superhosts establish higher prices for all other property types.
 
