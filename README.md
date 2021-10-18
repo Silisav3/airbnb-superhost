@@ -91,7 +91,7 @@ Our repository has the following structure:
 
 ## Running instructions
 
-*3 simple steps to run our project*:
+### 3 simple steps to run our project*:
 
 1. Download this Github repository to your own computer.
 2. Open your terminal and set the main directory of this project as your working directory. If you don't know how to do that, please check this following article: [Basic Shell Commands](https://swcarpentry.github.io/shell-novice/reference.html)
@@ -100,25 +100,25 @@ Our repository has the following structure:
 
 4. Grab some coffee and check back in few minutes. You will find the data downloaded, the analysis done and the results reported neatly in the right directory order as shown in [Repository overview](#repository-overview).
 
-#### Some FAQ's you may also have in mind:
+### Some FAQ's you may also have in mind:
 
-*1. How can you run the whole project with only a single command "make"?*
-
-For this project, we made use of GNU make executes your whole project with just a single command.If you would like to learn more about GNU make, we advice you to visit the following [site](https://tilburgsciencehub.com/building-blocks/automate-and-execute-your-work/automate-your-workflow/what-are-makefiles/).
-
-*2. Do I need to install any R packages before running this project?*
+*1. Do I need to install any R packages before running this project?*
 
 No. Do not worry about R package installation. When you run 'make' our source code will take care of package management. It will install the packages if necessary and load the required libraries automatically, thanks to [pacman](https://www.rdocumentation.org/packages/pacman/versions/0.5.1). Pretty cool, right?
 
-*3. Why can't I find any data files in this repository?*
+*2. Why can't I find any data files in this repository?*
 
 Please notice that we only need the **makefile** and **src** folder to run the whole project from the beginning. Therefore, to optimize resource (also to save you time downloading the project), this online repository does not store any data file (such as: .csv, .Rdata)
 
-*4. Is it necessary to download the whole repository to run the project?*
+*3. Is it necessary to download the whole repository to run the project?*
 
 No. As stated above, only **makefile** and the **src** folder is required. As this project is part of a course, We put the paper and gen/output folder here as it helps to report our results.
 
 When you run make locally, you will find the same resulting directory structure as described in [Repository overview](#repository-overview).
+
+*4. How can you run the whole project with only a single command "make"?*
+
+For this project, we made use of GNU make executes your whole project with just a single command.If you would like to learn more about GNU make, we advice you to visit the following [site](https://tilburgsciencehub.com/building-blocks/automate-and-execute-your-work/automate-your-workflow/what-are-makefiles/).
 
 *5. Anything else I should consider?*
 
