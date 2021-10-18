@@ -91,14 +91,14 @@ Our repository has the following structure:
 
 ## Running instructions
 
-### 3 simple steps to run our project*:
+### 4 simple steps to run our project*:
 
 1. Download this Github repository to your own computer.
 2. Open your terminal and set the main directory of this project as your working directory. If you don't know how to do that, please check this following article: [Basic Shell Commands](https://swcarpentry.github.io/shell-novice/reference.html)
 
 3. In your terminal: type: make
 
-4. Grab some coffee and check back in few minutes. You will find the data downloaded, the analysis done and the results reported neatly in the right directory order as shown in [Repository overview](#repository-overview).
+4 Grab some coffee and check back in few minutes. You will find the data downloaded, the analysis done and the results reported neatly in the right directory order as shown in [Repository overview](#repository-overview).
 
 ### Some FAQ's you may also have in mind:
 
