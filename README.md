@@ -115,7 +115,7 @@ When you run make locally, you will find the same resulting directory structure 
 
 *4. How can you run the whole project with only a single command "make"?*
 
-For this project, we made use of GNU make executes your whole project with just a single command.If you would like to learn more about GNU make, we advice you to visit the following [site](https://tilburgsciencehub.com/building-blocks/automate-and-execute-your-work/automate-your-workflow/what-are-makefiles/).
+For this project, we made use of GNU make which executes your whole project with just a single command. If you would like to learn more about GNU make, we advise you to visit the following [site](https://tilburgsciencehub.com/building-blocks/automate-and-execute-your-work/automate-your-workflow/what-are-makefiles/).
 
 *5. Anything else I should consider?*
 
