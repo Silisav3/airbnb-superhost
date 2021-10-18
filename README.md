@@ -109,9 +109,7 @@ Please notice that we only need the **makefile** and **src** folder to run the w
 
 *3. Is it necessary to download the whole repository to run the project?*
 
-No. As stated above, only **makefile** and the **src** folder is required. As this project is part of a course, We put the paper and gen/output folder here as it helps to report our results.
-
-When you run make locally, you will find the same resulting directory structure as described in [Repository overview](#repository-overview).
+No. As stated above, only **makefile** and the **src** folder is required. As this project is part of a course, we put the paper folder here as it helps to report our results. The creation of other folders will be taken care of by make. Thus, after you run make locally, you will find the same resulting directory structure as described in [Repository overview](#repository-overview).
 
 *4. How can you run the whole project with only a single command "make"?*
 
