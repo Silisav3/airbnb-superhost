@@ -65,48 +65,72 @@ See the distribution of propensity scores before and after the matching:
 ![results](https://raw.githubusercontent.com/tolga1902/tolga/main/result_1.PNG)
 ![results_cont](https://raw.githubusercontent.com/tolga1902/tolga/main/result_2.PNG)
 
+***
 
 ## Repository overview
 
 Our repository has the following structure:
 ```
-   |───gen
+   |───data: original data
+   |
+   |───gen: files generated while running source code
    |   ├───input
    |   ├───output
    |   |──temp
    |
-   |───paper
+   |───paper: analysis results
    |  
-   └───src
+   └───src: source code
         ├───analysis
         └───data-prep
 ```
+***
+
 ## Running instructions
 
-For this project, we made use of GNU make. In order to run the whole project type in your terminal the command make.If you would like to learn more about GNU make, we advice you to visit the following [site](https://tilburgsciencehub.com/building-blocks/automate-and-execute-your-work/automate-your-workflow/what-are-makefiles/).
+### 4 simple steps to run our project:
 
-Before running the makefile, please make sure you have the following packages installed :
-```
-        install.packages("pacman")
-        install.packages("googledrive")
-        install.packages("readr")
-        install.packages("MatchIt")
-        install.packages("optmatch")
-        install.packages("gapminder")
-        install.packages("dplyr")
-        install.packages(fixest)
-        install.packages("forcats")
-        install.packages("purrr")
-        install.packages("rlist")
-        install.packages("RItools")
-        install.packages("Hmisc")
-        install.packages("modelsummary")
-        install.packages("data.table")
-        install.packages("ggplot2")
-```
+1. Download this Github repository to your own computer.
+2. Open your terminal and set the main directory of this project as your working directory. If you don't know how to do that, please check this following article: [Basic Shell Commands](https://swcarpentry.github.io/shell-novice/reference.html)
+
+3. In your terminal: type: make
+
+4. Grab some coffee and check back in few minutes. You will find the data downloaded, the analysis done and the results reported neatly in the right directory order as shown in [Repository overview](#repository-overview).
+
+### Some FAQ's you may also have in mind:
+
+*1. Do I need to install any R packages before running this project?*
+
+No. Do not worry about R package installation. When you run 'make' our source code will take care of package management. It will install the packages if necessary and load the required libraries automatically, thanks to [pacman](https://www.rdocumentation.org/packages/pacman/versions/0.5.1). Pretty cool, right?
+
+*2. Why can't I find any data files in this repository?*
+
+Please notice that we only need the **makefile** and **src** folder to run the whole project from the beginning. Therefore, to optimize resource (also to save you time downloading the project), this online repository does not store any data file (such as: .csv, .Rdata)
+
+*3. Is it necessary to download the whole repository to run the project?*
+
+No. As stated above, only **makefile** and the **src** folder is required. As this project is part of a course, We put the paper and gen/output folder here as it helps to report our results.
+
+When you run make locally, you will find the same resulting directory structure as described in [Repository overview](#repository-overview).
+
+*4. How can you run the whole project with only a single command "make"?*
+
+For this project, we made use of GNU make executes your whole project with just a single command.If you would like to learn more about GNU make, we advice you to visit the following [site](https://tilburgsciencehub.com/building-blocks/automate-and-execute-your-work/automate-your-workflow/what-are-makefiles/).
+
+*5. Anything else I should consider?*
+
+Always make sure you have the updated R and Rstudio install on your computer.
+Check the latest version and the installation instruction at: [R website](https://www.r-project.org/) and [RStudio website](https://www.rstudio.com/)
+
+***
+
 ## More resources
 
-Perez-Sanchez VR, Serrano-Estrada L, Marti P, Mora-Garcia R-T. The What, Where, and Why of Airbnb Price Determinants. Sustainability. 2018; 10(12):4596. [https://doi.org/10.3390/su10124596]
++ Perez-Sanchez VR, Serrano-Estrada L, Marti P, Mora-Garcia R-T. The What, Where, and Why of Airbnb Price Determinants. Sustainability. 2018; 10(12):4596. [https://doi.org/10.3390/su10124596]
+
++ Learn more about Airbnb Superhost: [Details of Airbnb Superhost Program](https://www.airbnb.com/d/superhost)
+
+***
 
 ## About
 
