@@ -5,7 +5,8 @@ pacman::p_load(googledrive,readr,MatchIt, optmatch, dplyr, gapminder, fixest, fo
 
 search()
 
-# Create folders 
+# Create folders
+dir.create('./gen')
 dir.create('./data')
 dir.create('./gen/input')
 dir.create('./gen/temp')
